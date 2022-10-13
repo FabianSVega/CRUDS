@@ -1,0 +1,52 @@
+body{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body,h2,div, input, button{
+    padding: 0;
+    margin: 0;
+
+}
+
+.add-nombres{
+    margin-top: 40px;
+}
+#name{
+    padding: 4px 8px;
+
+}
+
+.option{
+    display: flex;
+    justify-self: end;
+}
+
+.nombres{
+    margin: 40px;
+}
+.nombre{
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    border-top: 1px solid #48e;
+}
+
+.options button{
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+    outline: none; 
+}
+
+.delete:hover{
+    color: #999;
+}
+
+.imposible:hover{
+    color: #ccc;
+}
+.nombre{
+    background: #999;
+
+}
