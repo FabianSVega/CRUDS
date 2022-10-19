@@ -13,7 +13,7 @@ body,h2,div, input, button{
 .add-nombres{
     margin-top: 40px;
 }
-#name{
+.name{
     padding: 4px 8px;
 
 }
@@ -47,6 +47,6 @@ body,h2,div, input, button{
     color: #ccc;
 }
 .nombre{
-    background: #999;
+    background: #999 ;
 
 }
